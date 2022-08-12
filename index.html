@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <title> Dong's Airplane</title>
+        <style>
+            body{
+                background-image:url(BK.png);
+                height:800px;
+            }
+            *{
+                margin:0px;
+                padding:0px;
+            }
+            .Airp{
+                margin-top:100px;
+                display:block;
+                text-align: center;
+                border-radius:100px;
+                opacity:0.9;
+            }
+            .myName{
+                display:flex;
+                justify-content: center;
+                letter-spacing: 1px;
+                font-family:Roboto;
+                font-size:36px;
+                animation: ease forwards 2s;
+                animation-name:out;
+                padding-bottom:10px;
+                font-weight:bold;
+                color:rgb(16, 16, 16);
+                margin-bottom:15px;
+            }
+            @keyframes out{
+                0%{
+                    opacity:0;
+                }
+                100%{
+                    opacity:100%;
+                }
+            }
+            .p{
+                display:flex;
+                justify-content: space-around;
+                font-family:Roboto;
+                font-size:15px;
+                animation: ease forwards 2s;
+                animation-name:out;
+                padding-bottom:10px;
+            }
+            @keyframes out{
+                0%{
+                    opacity:0;
+                }
+                100%{
+                    opacity:100%;
+                }
+            }
+            .Di{
+                display:flex;
+                Max-width:550px;
+                margin-top:100px;
+                margin-left:100px;  
+                font-size:18px;
+                font-family:Roboto;
+                animation-name:out1;
+                animation: ease forwards 4s;
+            }
+            @keyframes out1{
+                0%{
+                    opacity:0;
+                }
+                100%{
+                    opacity:100%;
+                }
+            }
+            .front{
+                margin-left:100px;
+            }
+            .pcolor{
+                color:rgb(205, 2, 76);
+            }
+            .lm{
+                margin-top:15px;
+                display:flex;
+                font-family:Roboto;
+                text-decoration:none;
+                color:rgb(91, 91, 255);
+                justify-content: center;
+                font-weight:700;
+            }
+            .im:hover{
+                color:rgb(0, 0, 0);
+                text-decoration:underline;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div>
+            <a class="Airp"><img src="Airplane.png"></a>
+            <h1 class="myName">Dong's <span class="pcolor"> -Airplane </span>😎</h1>
+            <a class="p">The Best paper airplane?</a>
+            <a class="lm" href="webpage/e.html">Learn more ></a>
+        </div>
+
+    </body>
+</html>
